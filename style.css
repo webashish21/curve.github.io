@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100wh;
+    height: 100%;
+    position: relative;
+    padding: 40px;
+    background-color: #a4ebf3;
+    transition: 0.5s ease-in-out;
+    
+    
+}
+.girl{
+    height: 400px;
+    float: left;
+    margin-right: 2rem;
+    border-radius: 50%;
+    shape-outside: ellipse();
+}
+.main h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 55px;
+  background-color:white;
+  padding:20px 40px;
+  mix-blend-mode:screen;
+    font-family: system-ui;
+}
+
+
+.red:nth-of-type(1)::first-letter{
+    text-align: justify;
+   font-size: 60px;
+   padding-right: 5px;
+   font-family: system-ui;           
+} 
+
+ /* .main > .red::first-letter{
+   text-align: justify;
+   font-size: 60px;
+   padding-right: 8px;
+   font-family: system-ui;
+}
+.main > .red ~ .red::first-letter {
+font-size: 16px;
+padding-right: 0px;
+
+} */
